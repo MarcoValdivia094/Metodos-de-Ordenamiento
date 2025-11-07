@@ -1,0 +1,22 @@
+Estos algoritmos trabajan directamente en la memoria principal (RAM) y son ideales para conjuntos de datos pequeños o medianos.
+
+1. Insertion Sort
+Ordena los elementos uno por uno, insertándolos en su posición correcta dentro de una lista parcialmente ordenada. Es eficiente para listas pequeñas o casi ordenadas.
+
+2. Selection Sort
+Busca el elemento más pequeño en cada pasada y lo coloca en su posición final. Tiene un rendimiento constante pero no es muy eficiente para listas grandes.
+
+3. Intercambio (Bubble Sort)
+Compara pares de elementos adyacentes y los intercambia si están en el orden incorrecto. Repite el proceso hasta que la lista esté ordenada. Es simple pero poco eficiente.
+
+4. Ordenamiento de Árbol (Tree Sort)
+Inserta los elementos en un árbol binario de búsqueda y luego realiza un recorrido en orden para obtener la lista ordenada. Aprovecha la estructura jerárquica del árbol.
+
+5. QuickSort
+Divide la lista en dos partes usando un pivote, ordena cada parte recursivamente. Es muy eficiente en la práctica y ampliamente utilizado.
+
+6. MergeSort
+Divide la lista en mitades, las ordena recursivamente y luego las fusiona. Tiene un rendimiento estable y es ideal para listas grandes.
+
+7. RadixSort
+Ordena números enteros procesando dígito por dígito, desde el menos significativo al más significativo. Es muy rápido para datos numéricos con longitud fija.
