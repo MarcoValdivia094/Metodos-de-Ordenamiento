@@ -1,0 +1,16 @@
+Estos se usan cuando los datos son demasiado grandes para caber en memoria, y se almacenan en archivos o discos.
+
+1. Straight Merging
+Divide los datos en bloques ordenados y los fusiona secuencialmente en un archivo final. Es simple pero requiere múltiples pasadas.
+
+2. Natural Merging
+Detecta secuencias ordenadas naturales en los datos y las fusiona. Reduce el número de pasadas al aprovechar el orden existente.
+
+3. Balanced Multiway Merging
+Fusiona múltiples archivos o bloques simultáneamente en rondas balanceadas. Mejora la eficiencia al reducir el número de fusiones necesarias.
+
+4. Polyphase Sort
+Distribuye secuencias de forma desigual entre archivos y las fusiona siguiendo un patrón polifásico. Minimiza el uso de archivos temporales.
+
+5. Distribution of Initial Runs
+Identifica y distribuye secuencias ordenadas iniciales en archivos separados, preparándolas para una fusión posterior. Es el primer paso en muchos algoritmos externos.
